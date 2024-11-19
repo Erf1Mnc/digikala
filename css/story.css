@@ -1,0 +1,43 @@
+.story {
+  width: 100%;
+  height: 165px;
+  background-color: transparent;
+  .storybar {
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    .storycontainer {
+        cursor: pointer;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 26px;
+      .storyimg {
+        width: 74px;
+        height: 74px;
+        img {
+          border-radius: 50%;
+          outline: 2px solid purple;
+          outline-offset: 3px;
+          object-fit: cover;
+        }
+      }
+      .storytxt {
+        width: 100%;
+        height: 25px;
+        color: #23254e;
+        span {
+          font-size: 11px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          -webkit-line-clamp: 2;
+        }
+      }
+    }
+  }
+}

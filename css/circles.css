@@ -1,0 +1,49 @@
+.circle {
+  width: 100%;
+  height: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  background-color: white;
+  .circleholder {
+    cursor: pointer;
+    width: 82px;
+    height: 103px;
+  
+    .circleimg {
+      width: 100%;
+      height: 51px;
+      svg {
+        width: 4px;
+        height: 3.5px;
+        fill: #a1a3a8 ;
+      }
+      :nth-last-of-type(1) {
+        background-color: #f0f0f1;
+        width:52px ;  
+        height:52px ;
+        border-radius: 50%;
+     
+
+      } 
+   
+
+      img {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+      }
+    }
+    .circletxt {
+      width: 100%;
+      height: 52px;
+      word-break: keep-all;
+      span {
+        margin-top: 4px;
+        font-size: 11px;
+        color: #3f4064;
+      }
+    }
+  }
+}

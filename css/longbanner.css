@@ -1,0 +1,116 @@
+.longbanner {
+  width: 1336px;
+  height: 110px;
+  background-color: #e9edec;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-image: url(../images/LongOffBanner/BackGroundPattern.svg);
+  position: relative;
+  display: flex;
+  .backgroundcover {
+    height: inherit;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    border-radius: 16px;
+  }
+  .supermarketbanner {
+    width: 466.5px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+
+    .basketfresh {
+      width: 66px;
+      height: 62px;
+    }
+    .freshoffer {
+      width: 250px;
+      height: 28px;
+    }
+    .greenbox {
+      width: 110.5px;
+      height: 28px;
+      border-radius: 16px;
+      background-color: #029a49;
+      padding: 0 12px;
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+  .prodcontainer {
+    width: 492px;
+    height: 74px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    margin-top: 20px;
+    gap: 10px;
+    .productbox {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+
+      .supermarketimg {
+        width: 52px;
+        height: 52px;
+      }
+      .offbox {
+        width: 34px;
+        height: 20px;
+        border-radius: 16px;
+        background-color: #d32f2f;
+        position: absolute;
+        right: 0;
+        bottom: -12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        .off {
+          font-size: 12px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+.supermarketmore {
+  width: 147.11px;
+  height: 50.03px;
+  border-radius: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
+  gap: 6px;
+
+  span {
+    font-size: 12px;
+    color: #029a49;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: #029a49;
+  }
+}

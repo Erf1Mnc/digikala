@@ -1,0 +1,14 @@
+.doublebannerplace{
+    width: 1336px;
+    height: 264px;
+    display: flex;
+    margin: -30px auto;
+    gap: 8px;
+    img{
+        width:660px ;
+        height:inherit ;
+        border-radius: 16px;
+        object-fit: cover;
+
+    }
+}

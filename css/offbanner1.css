@@ -1,0 +1,19 @@
+.offbanner1container {
+  width: 1005;
+  height: 260px;
+  background-color: white;
+
+  .offbanner1 {
+    width: 1340px;
+    height: 100%;
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+img{
+    width:322px;
+    height:241.5px;
+    border-radius: 16px;
+}
+  }
+}

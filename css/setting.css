@@ -18,4 +18,10 @@
     src: url(../Fonts/Homa/BHoma.woff);
     src: url(../Fonts/Homa/BHoma.woff2);
 }
-main{background-color: white;}
+main{background-color: white ;
+   
+}
+body{
+    background-color: white !important; 
+
+}
